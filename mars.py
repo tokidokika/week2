@@ -12,6 +12,7 @@ def planets(planet):
     user_say = planet
     dct = {
         'Pluto': ephem.Pluto
+        'merc'
     }
     planet_func = dct[user_say]
     planet_obj = planet_func(date)
