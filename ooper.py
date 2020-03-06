@@ -64,7 +64,7 @@ class Phone(Product):
 
     def get_memory_size(self):
         # Выводим размер памяти в гигабайтах
-        pass 
+        pass   # pass – означает, что этот метод не реализован и будет реализован позже
 
     def __repr__(self):
         return f'<Phone name: {self.name}, price: {self.price}, stock: {self.stock}>'
@@ -79,14 +79,14 @@ class Sofa(Product):
         return f'Цвет обивки: {self.color}. Тип ткани: {self.texture}'
 
     def __repr__(self):
-        return f'<Phone name: {self.name}, price: {self.price}, stock: {self.stock}>'
+        return f'<Sofa name: {self.name}, price: {self.price}, stock: {self.stock}>'
 
 my_phone = Phone('iPhone', 60000, 'Черный')
 # print(my_phone)
 # print(my_phone.color)
 print(my_phone.get_color())
 
-sofa1 = Sofa('Большой диван', 25312.4, 'желтый', 'Велюр')
+sofa1 = Sofa('Большой диван', 25312.4, 'Желтый', 'Велюр')
 # print(sofa1)
 # print(sofa1.color)
 # print(sofa1.texture)
