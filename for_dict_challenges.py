@@ -112,7 +112,7 @@
 
 # Задание 4
 # Для каждого класса нужно вывести количество девочек и мальчиков в нём.
-school = [
+# school = [
   {'class': '2a', 'students': [{'first_name': 'Маша'}, {'first_name': 'Оля'}]},
   {'class': '3c', 'students': [{'first_name': 'Олег'}, {'first_name': 'Миша'}]},
 ]
